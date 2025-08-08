@@ -6,7 +6,7 @@ CLI-converter to convert a MSX-ROM to match one of the following mappers:
 
 The output is a binary file ready to be burned on a SST39SF0x0 EEPROM for a flash cart such as [Spider Flash](https://github.com/konkotgit/MSX-Spider-Flash-Cart)
 
-The project is **heavily inspired by the wrtsst.com tool by [HRA!]((https://github.com/hra1129/MSX_MegaSCC_for_SST39SF040/tree/main/tools/wrtsst)** but where wrtsst.com runs on the MSX hardware and writes directy to the flashcart, this program can be used on a linux/unix/mac/pc to prepare the chip before burning it.
+The project is **heavily inspired by the wrtsst.com tool by [HRA!](https://github.com/hra1129/MSX_MegaSCC_for_SST39SF040/tree/main/tools/wrtsst)** but where wrtsst.com runs on the MSX hardware and writes directy to the flashcart, this program can be used on a linux/unix/mac/pc to prepare the chip before burning it.
 
 ## Build
 ```bash
