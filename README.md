@@ -2,11 +2,11 @@
 CLI-converter to convert a MSX-ROM to match one of the following mappers:
 - **MegaSCC** (Konami SCC-mapper) – *default*
 - **ESE-RC755**
-- **Simple64K** (med `--addr` startblok som i originalen)
+- **Simple64K** (with `--addr` start block )
 
-The output is a binary file ready to be burned on a SST39SF0x0 EEPROM for a flash cart such as Spider Flash
+The output is a binary file ready to be burned on a SST39SF0x0 EEPROM for a flash cart such as [Spider Flash](https://github.com/konkotgit/MSX-Spider-Flash-Cart)
 
-The project is **heavily inspired by the wrtsst.com tool by HRA!** but where wrtsst.com runs on the MSX hardware and writes directy to the flashcart, this program can be used on a linux/unix/mac/pc to prepare the chip before burning it.
+The project is **heavily inspired by the wrtsst.com tool by [HRA!]((https://github.com/hra1129/MSX_MegaSCC_for_SST39SF040/tree/main/tools/wrtsst)** but where wrtsst.com runs on the MSX hardware and writes directy to the flashcart, this program can be used on a linux/unix/mac/pc to prepare the chip before burning it.
 
 ## Build
 ```bash
@@ -21,7 +21,7 @@ The project is **heavily inspired by the wrtsst.com tool by HRA!** but where wrt
 ./rom2msx input.rom output.bin [--chip 64|128|256|512] [--type mega|rc755|s64k] [--addr 0..7] [--verify]
 ```
 Defaults: `--chip 128` (SST39SF010), `--type mega`.
-For use with Spider Flash remember to specify ""--type s64k"
+For use with Spider Flash remember to specify `--type s64k`
 
 ### Examples
 ```bash
